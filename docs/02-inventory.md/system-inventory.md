@@ -18,10 +18,10 @@ Use one system ID in both tables so the business and data details stay connected
 | System ID | System name | Business purpose | Business owner | Hosting or service model | Homelab equivalent | Criticality |
 |---|---|---|---|---|---|---|
 | SYS-001 | Payment processor | Authorize subscription payments and process refunds | Finance Director | Third-party SaaS | Simulated payment service | High |
-| SYS-002 | TODO | TODO | TODO | TODO | TODO | TODO |
-| SYS-003 | TODO | TODO | TODO | TODO | TODO | TODO |
-| SYS-004 | TODO | TODO | TODO | TODO | TODO | TODO |
-| SYS-005 | TODO | TODO | TODO | TODO | TODO | TODO |
+| SYS-002 | Customer Portal | manage subscriber accounts | Product director | Cloud application | Web Application VM | High |
+| SYS-003 | Identity provider | Authenticate Users | CSI | Cloud application | Web application VM | High |
+| SYS-004 | Subscription Database | document all users and their  subscription | Operations director | Database | Database | Medium |
+| SYS-005 | Support Ticket system | Organize customer issues and support methods | HR | Web Application | Web Application | Medium |
 | SYS-006 | TODO | TODO | TODO | TODO | TODO | TODO |
 | SYS-007 | TODO | TODO | TODO | TODO | TODO | TODO |
 | SYS-008 | TODO | TODO | TODO | TODO | TODO | TODO |
