@@ -11,5 +11,6 @@ Marketing automation - renewal reminders, offers, checkout messages.
 support and refund portal - Handles account problems, refund, disputes, and attachments. 
 Integration marketplace - connects platform to payment processors, CRMs, email providers, and analytic vendors. Shares account, transaction, tokens, and API activity to third party analytic and payment vendors creating third party risk.
 
+## Processing purpose register and data subject
 
-
+Blue Arbor(BA) processes Subscribers data by collecting name, email, account ID, and preferences in order to create and administer the subscribers account and deliver purchased services. BA processes payment account holder data be using billing contact info, card tokens, transaction records, and card brand in order to authorize recurring payments, issue refunds, and manage renewals. BA processes customer admin data by using their business contact info, role, permissions and admin activity to allow authorized reps to manage their orgs admin BA account. BA processes the data Support requesters because when a data subject calls help desk they must provide account or contact information to the help desk consultant so a ticket can be created, and the data subject can be authenticated. BA processes website visitors data by browser data, security events, and IP address all of which are in order to operate the website and prevent abuse or malicious activity. BA processes employees name, business email, employer, and inquiry details in order to administer employment, meet legal needs and secure company system.
