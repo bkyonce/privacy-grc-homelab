@@ -29,22 +29,14 @@ Use one system ID in both tables so the business and data details stay connected
 | SYS-010 | Backup and recovery system | Restore critical systems and information after loss or failure | IT Operations Director | Internally managed infrastructure service | Proxmox Backup Server or encrypted backup repository | Critical |
 | SYS-011 | Cloud infrastructure | Host Blue Arbor applications, networks, and data services | Infrastructure Director | Infrastructure as a Service | Proxmox or another hypervisor and segmented virtual networks | Critical |
 
-### Column guidance
 
-- **System ID:** A permanent identifier such as `SYS-001`.
-- **System name:** The application, platform, database, device group, or infrastructure component.
-- **Business purpose:** The specific result the system supports.
-- **Business owner:** The role accountable for the business use of the system.
-- **Hosting or service model:** On-premises, cloud infrastructure, internally managed application, or third-party SaaS.
-- **Homelab equivalent:** The component in my lab that represents the fictional system.
-- **Criticality:** Low, moderate, high, or critical based on business impact.
 
 ## 2. Data and compliance details
 
 | System ID | Data subjects | Data categories | Retention or deletion rule | External recipients | PCI DSS | GDPR | CCPA | NIST CSF notes |
 |---|---|---|---|---|---|---|---|---|
 | SYS-001 | Subscribers and payment account holders | Billing contact, payment token, card brand, last four digits, transaction history | Based on transaction, dispute, accounting, and legal requirements; exact period TBD | Payment processor and financial institutions | Potentially in scope; architecture review required | Personal and financial data processing | Consumer and sensitive personal information may be involved | Govern third parties; protect data; detect and respond to payment incidents |
-| SYS-002 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
+| SYS-002 | Subscribers | Contact, Subscription, and preferences | Data is deleted once the account is deleted aswell | TODO | TODO | TODO | TODO | TODO |
 | SYS-003 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
 | SYS-004 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
 | SYS-005 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
