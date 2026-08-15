@@ -50,14 +50,6 @@ docs/
 notes/                 Decision log and learning notes
 ```
 
-## Safety rules
-
-- Use only fictional organizations, users, and data.
-- Do not upload University of Michigan tickets, logs, credentials, configurations, or nonpublic information.
-- Do not upload passwords, API keys, private keys, or raw sensitive evidence.
-- Clearly separate facts, assumptions, and recommendations.
-- Do not claim that this project certifies legal or regulatory compliance.
-
 ## Author
 
 Buturo Bartolomei
