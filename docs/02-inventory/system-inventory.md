@@ -17,17 +17,17 @@ Use one system ID in both tables so the business and data details stay connected
 
 | System ID | System name | Business purpose | Business owner | Hosting or service model | Homelab equivalent | Criticality |
 |---|---|---|---|---|---|---|
-| SYS-001 | Payment processor | Authorize subscription payments and process refunds | Finance Director | Third-party SaaS | Simulated payment service | High |
-| SYS-002 | Customer Portal | manage subscriber accounts | Product director | API hosted no cloud infrastructure internal managed | demo Web Application running on linux VM | High |
-| SYS-003 | Identity provider | Authenticate Users | CSO | internally managed cloud identity service | Keycloak or authentik VM | High |
-| SYS-004 | Subscription Database | document all users and their  subscription | Operations director | managed Database | MySQL running on restricted container/VM | Medium |
-| SYS-005 | Support Ticket system | Organize customer issues and support methods | HR | Web Application | Web Application | Medium |
-| SYS-006 | TODO | TODO | TODO | TODO | TODO | TODO |
-| SYS-007 | TODO | TODO | TODO | TODO | TODO | TODO |
-| SYS-008 | TODO | TODO | TODO | TODO | TODO | TODO |
-| SYS-009 | TODO | TODO | TODO | TODO | TODO | TODO |
-| SYS-0010 | TODO | TODO | TODO | TODO | TODO | TODO |
-| SYS-011 | TODO | TODO | TODO | TODO | TODO | TODO |
+| SYS-001 | Payment processor | Authorize subscription payments and process refunds | Finance Director | Third-party SaaS | Simulated payment API using test data only | High |
+| SYS-002 | Customer portal | Allow subscribers to manage accounts and subscriptions | Product Director | Internally managed cloud application | Demo web application on a Linux VM or container | High |
+| SYS-003 | Identity provider | Authenticate users and enforce access policies | Chief Information Security Officer | Internally managed identity service | Authentik or Keycloak on a dedicated VM/container | High |
+| SYS-004 | Subscription database | Store subscriber, plan, and subscription records | Subscription Operations Director | Managed database service | MySQL on a restricted VM/container | High |
+| SYS-005 | Support-ticket system | Record, assign, and resolve customer issues | Customer Support Director | Third-party SaaS | Zammad or GLPI on a VM/container | Medium |
+| SYS-006 | Analytics platform | Measure product usage and subscription trends | Data and Analytics Director | Third-party SaaS | Matomo on a VM/container using synthetic events | Medium |
+| SYS-007 | Marketing automation platform | Manage permitted campaigns and renewal communications | Marketing Director | Third-party SaaS | Mautic on a VM/container using synthetic contacts | Medium |
+| SYS-008 | Email delivery service | Deliver account, billing, security, and support messages | Customer Communications Director | Third-party SaaS | Mailpit for local capture of synthetic email | High |
+| SYS-009 | Security logging and SIEM | Centralize security events and support incident detection | Chief Information Security Officer | Internally managed security platform | Wazuh server and agent deployment | High |
+| SYS-010 | Backup and recovery system | Restore critical systems and information after loss or failure | IT Operations Director | Internally managed infrastructure service | Proxmox Backup Server or encrypted backup repository | Critical |
+| SYS-011 | Cloud infrastructure | Host Blue Arbor applications, networks, and data services | Infrastructure Director | Infrastructure as a Service | Proxmox or another hypervisor and segmented virtual networks | Critical |
 
 ### Column guidance
 
