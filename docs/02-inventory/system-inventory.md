@@ -36,13 +36,16 @@ Use one system ID in both tables so the business and data details stay connected
 | System ID | Data subjects | Data categories | Retention or deletion rule | External recipients | PCI DSS | GDPR | CCPA | NIST CSF notes |
 |---|---|---|---|---|---|---|---|---|
 | SYS-001 | Subscribers and payment account holders | Billing contact, payment token, card brand, last four digits, transaction history | Based on transaction, dispute, accounting, and legal requirements; exact period TBD | Payment processor and financial institutions | Potentially in scope; architecture review required | Personal and financial data processing | Consumer and sensitive personal information may be involved | Govern third parties; protect data; detect and respond to payment incidents |
-| SYS-002 | Subscribers | Contact, Subscription, and preferences | Data is deleted once the account is deleted aswell | TODO | TODO | TODO | TODO | TODO |
-| SYS-003 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
+| SYS-002 | Subscribers and authorized account users | name, email, account ID, subscription status, account activity. | deleted after account closure | Cloud hosting provider, identity provider, payment processor. | potentially in scope | processes account and preference data to provide the subscription service | includes identifiers, commercial info, account activity and preferences, disclosure must be documented | protect accounts and data, manage IAM, log sec events and respond to unauthorized access |
+| SYS-003 | Customers, subscribers, admins | Permissions, access control | user account permissions and data must be deleted promptly after they leave their account as to not cause permission errors | None | Not in scope | Processes user names and account IDs to allocate permissions | processes user names and account IDs to allocate permissions | mainly need to identify assets and data and protect along with detect anomalous activity. |
 | SYS-004 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
 | SYS-005 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
 | SYS-006 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
 | SYS-007 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
 | SYS-008 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
+| SYS-009 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
+| SYS-010 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
+| SYS-011 | TODO | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
 
 ### Framework labels
 
