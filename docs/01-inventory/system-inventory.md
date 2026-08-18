@@ -58,46 +58,4 @@ For GDPR and CCPA, explain why the system processes covered personal information
 
 For NIST CSF, identify the most relevant risk-management outcome. Detailed control mapping will happen later.
 
-## 3. Systems to consider
 
-Use this list as a prompt, but include only systems Blue Arbor actually needs:
-
-- Customer or member portal
-- Identity provider
-- Payment processor
-- Subscription database
-- Merchant administration dashboard
-- Analytics platform
-- Marketing automation platform
-- Support-ticket system
-- Email delivery service
-- Security logging or SIEM platform
-- Employee directory
-- Backup and recovery system
-- Cloud infrastructure
-- Source-code repository
-- Vendor-management system
-
-## 4. Questions to ask for every system
-
-1. What business process stops if this system becomes unavailable?
-2. Whose information does it process?
-3. Does it store information, transmit it, or only provide access to it?
-4. Which employees or vendors can access it?
-5. Does it send information to another country or organization?
-6. Is the information copied into logs or backups?
-7. How is information corrected or deleted?
-8. Could the system affect the security of the payment environment?
-9. Who accepts the risk associated with the system?
-10. What do I still need to verify?
-
-## Completion checklist
-
-- [ ] Every Blue Arbor service has at least one supporting system.
-- [ ] Every system has a unique ID and an owner.
-- [ ] Every system lists the data subjects and data categories it handles.
-- [ ] Vendors and external recipients are identified.
-- [ ] Retention is documented or marked for follow-up.
-- [ ] PCI DSS, GDPR, CCPA, and NIST considerations are recorded.
-- [ ] Each homelab component has a fictional business-system purpose.
-- [ ] Unanswered questions have been added to the decision log.
